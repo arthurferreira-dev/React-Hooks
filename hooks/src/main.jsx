@@ -5,6 +5,7 @@ import './App.css'
 import UseStateApp from './useState';
 import UseEffectApp from './useEffect';
 import UseRefApp from './useRef';
+import UseReducerApp from './useReducer';
 
 const rtr = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const rtr = createBrowserRouter([
   {
     path: "/useRef",
     element: <UseRefApp/>
+  },
+  {
+    path: "/useReducer",
+    element: <UseReducerApp/>
   }
 ]);
 
